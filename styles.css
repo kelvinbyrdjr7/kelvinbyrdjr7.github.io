@@ -1,12 +1,21 @@
 body {
-background: #ECFA6B;
-font-family:Georgia, 'Times New Roman', Times, serif, Times, serif;
-margin: 40px;
+    background: #ECFA6B;
+    font-family:Georgia, 'Times New Roman', Times, serif, Times, serif;
+
 }
 h1 {
-text-align: center;
-color: #FA746B;
+    text-align: center;
+    color: #FA746B;
 }
 .about {
 background: #ECFA6B;
+}
+.projects { 
+        display:flex; flex-wrap:wrap; } /* condensed to save space */
+.project {
+    width: 30%;
+    margin: 10px;
+    padding: 20px 10px;
+    background: #FA746B; 
+    border-radius: 25%;
 }
