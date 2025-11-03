@@ -20,9 +20,9 @@ background: #ECFA6B;
     border-radius: 25%;
 }
 .project img { 
-    width: 250px;
+    width: 350px;
     height: auto
     display: block;
     margin: 10px auto ;
-    border-radius; 8px
+    border-radius; 10px
 }
