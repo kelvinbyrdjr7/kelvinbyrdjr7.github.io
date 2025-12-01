@@ -1,32 +1,46 @@
 body {
     background: #ffffff;
-    font-family:Georgia, 'Times New Roman', Times, serif, Times, serif;
-
+    font-family: Georgia, 'Times New Roman', Times, serif, Times, serif;
 }
+
 h1 {
     text-align: center;
     color: #ff0000;
 }
+
 .about {
-background: #ffffff;
+    background: #ffffff;
 }
+
+/* PROJECTS LAYOUT */
 .projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  /* centers all boxes */
+    gap: 20px;                /* even spacing between boxes */
 }
 
+/* EACH BOX */
 .project {
-  width: 250px;          /* SMALLER box size */
-  background: #ff0000;
-  padding: 15px;
-  border-radius: 25px;
+    width: 250px;             /* smaller boxes */
+    background: #ff0000;
+    padding: 20px;
+    border-radius: 25px;
+    color: black;
 }
 
-/* Force the 3rd box onto its own row and center it */
+/* IMAGES INSIDE BOXES */
+.project img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* FORCE 3RD BOX TO CENTER ON ITS OWN ROW */
 .project:nth-child(3) {
-  width: 250px;          /* same size as others */
+    margin-top: 20px;
 }
 
-}
+
